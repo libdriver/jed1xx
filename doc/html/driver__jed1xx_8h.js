@@ -1,0 +1,36 @@
+var driver__jed1xx_8h =
+[
+    [ "DRIVER_JED1XX_LINK_DEBUG_PRINT", "group__jed1xx__link__driver.html#gaea753eab0f3e4b4fa62efdf919a04006", null ],
+    [ "DRIVER_JED1XX_LINK_DELAY_MS", "group__jed1xx__link__driver.html#ga1bb0569ab0f843f995d4352828832d71", null ],
+    [ "DRIVER_JED1XX_LINK_IIC_DEINIT", "group__jed1xx__link__driver.html#ga8fa84a73af1bc370f88f1a7a675157fc", null ],
+    [ "DRIVER_JED1XX_LINK_IIC_INIT", "group__jed1xx__link__driver.html#ga8a978a7c6b16f17dcb789068d1f475aa", null ],
+    [ "DRIVER_JED1XX_LINK_IIC_READ", "group__jed1xx__link__driver.html#ga21a114907530040730e9de66b62e0229", null ],
+    [ "DRIVER_JED1XX_LINK_IIC_WRITE", "group__jed1xx__link__driver.html#ga4f4c4e35f4c6e5364f1780736d520204", null ],
+    [ "DRIVER_JED1XX_LINK_INIT", "group__jed1xx__link__driver.html#gad4de1114c07091bf261f947152eb493c", null ],
+    [ "jed1xx_handle_t", "group__jed1xx__base__driver.html#ga213fcafe2f8b6a3dc23170dc917ed10d", null ],
+    [ "jed1xx_info_t", "group__jed1xx__base__driver.html#ga273c84a98d02786c286c54c3c9552b10", null ],
+    [ "jed1xx_type_t", "group__jed1xx__base__driver.html#ga722b5292dbe0ce9705e3ced8ad8aa126", [
+      [ "JED1XX_TYPE_101_VOC", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a7e2cc21c791c1e1b01317e15fa823469", null ],
+      [ "JED1XX_TYPE_103_H2", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a08999c7d31368b7d23a9b19851fe2983", null ],
+      [ "JED1XX_TYPE_104_C0", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126ad006ec620f69cf010bf71bc02e6d325b", null ],
+      [ "JED1XX_TYPE_105_NH3", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126ae2c5ec259964e0280b2e45bae342e772", null ],
+      [ "JED1XX_TYPE_106_H2S", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126afcc5db2e80c3f707a5df577f20137c78", null ],
+      [ "JED1XX_TYPE_107_C2H5OH", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a3999a15c96b3b99514025e549bb11852", null ],
+      [ "JED1XX_TYPE_109_C3H8", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126aa00946f549044bef460408c44fa4e6da", null ],
+      [ "JED1XX_TYPE_110_CF2CL2", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126ad093af6def31d0063e194fefe6fee46e", null ],
+      [ "JED1XX_TYPE_112_NO2", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a07bfeee53f9f59c6fd665096665fc893", null ],
+      [ "JED1XX_TYPE_115_SMOG", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a5dde567612d9646f729eea3fb91a0539", null ],
+      [ "JED1XX_TYPE_116_CH2O", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126ae817562e4bfb8955aaeafad3edbd13f6", null ],
+      [ "JED1XX_TYPE_117_CH3COCH3", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a91a24d5da2a22cfc53a9f77b247f4bdf", null ],
+      [ "JED1XX_TYPE_131_O3", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a181443763577f5654b8c4b0c80ae837d", null ],
+      [ "JED1XX_TYPE_138_C6H6", "group__jed1xx__base__driver.html#gga722b5292dbe0ce9705e3ced8ad8aa126a7454ba16f93939e99b09e0875ae794f9", null ]
+    ] ],
+    [ "jed1xx_deinit", "group__jed1xx__base__driver.html#ga04720bc9d65908b68b9576d46f658720", null ],
+    [ "jed1xx_get_reg", "group__jed1xx__extend__driver.html#ga7f0535934a45edc3249540cf0e024df9", null ],
+    [ "jed1xx_get_type", "group__jed1xx__base__driver.html#gaf9e0289e219cdbe9af7dc6ae547f797a", null ],
+    [ "jed1xx_info", "group__jed1xx__base__driver.html#ga764b2a81a4eccf6ef932bbebac84b8b8", null ],
+    [ "jed1xx_init", "group__jed1xx__base__driver.html#gaf07679547f06c4d0c68e25734aae8dbc", null ],
+    [ "jed1xx_read", "group__jed1xx__base__driver.html#ga4c98c38b03bfffe58b06d8d823e11a4c", null ],
+    [ "jed1xx_set_reg", "group__jed1xx__extend__driver.html#gac09e1e6257680461313205fd67c025c2", null ],
+    [ "jed1xx_set_type", "group__jed1xx__base__driver.html#ga475edd99257e6d8c67a111d82c7bbefb", null ]
+];
