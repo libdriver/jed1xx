@@ -67,6 +67,8 @@ if (res != 0)
     return 1;
 }
 
+...
+    
 /* loop */
 for (i = 0; i < 3; i++)
 {
@@ -85,8 +87,12 @@ for (i = 0; i < 3; i++)
     /* output */
     jed1xx_interface_debug_print("jed1xx: %d/%d.\n", (uint32_t)(i + 1), (uint32_t)3);
     jed1xx_interface_debug_print("jed1xx: output is %0.1fppm.\n", ppm);
+    
+    ...
 }
 
+...
+    
 /* deinit */
 (void)jed1xx_basic_deinit();
 
