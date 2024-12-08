@@ -40,8 +40,8 @@ static jed1xx_handle_t gs_handle;        /**< jed1xx handle */
 
 /**
  * @brief     read test
- * @param[in] type is the chip type
- * @param[in] times is the test times
+ * @param[in] type chip type
+ * @param[in] times test times
  * @return    status code
  *            - 0 success
  *            - 1 read failed

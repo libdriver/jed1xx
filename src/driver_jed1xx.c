@@ -55,10 +55,10 @@
 
 /**
  * @brief      read bytes
- * @param[in]  *handle points to a jed1xx handle structure
- * @param[in]  reg is the register address
- * @param[out] *data points to a data buffer
- * @param[in]  len is the data length
+ * @param[in]  *handle pointer to a jed1xx handle structure
+ * @param[in]  reg register address
+ * @param[out] *data pointer to a data buffer
+ * @param[in]  len data length
  * @return     status code
  *             - 0 success
  *             - 1 read failed
@@ -76,10 +76,10 @@ static uint8_t a_jed1xx_iic_read(jed1xx_handle_t *handle, uint8_t reg, uint8_t *
 
 /**
  * @brief     write bytes
- * @param[in] *handle points to a jed1xx handle structure
- * @param[in] reg is the register address
- * @param[in] *data points to a data buffer
- * @param[in] len is the data length
+ * @param[in] *handle pointer to a jed1xx handle structure
+ * @param[in] reg register address
+ * @param[in] *data pointer to a data buffer
+ * @param[in] len data length
  * @return    status code
  *            - 0 success
  *            - 1 write failed
@@ -97,8 +97,8 @@ static uint8_t a_jed1xx_iic_write(jed1xx_handle_t *handle, uint8_t reg, uint8_t 
 
 /**
  * @brief     set the chip type
- * @param[in] *handle points to a jed1xx handle structure
- * @param[in] type is the chip type
+ * @param[in] *handle pointer to a jed1xx handle structure
+ * @param[in] type chip type
  * @return    status code
  *            - 0 success
  *            - 2 handle is NULL
@@ -118,8 +118,8 @@ uint8_t jed1xx_set_type(jed1xx_handle_t *handle, jed1xx_type_t type)
 
 /**
  * @brief      get the chip type
- * @param[in]  *handle points to a jed1xx handle structure
- * @param[out] *type points to a chip type buffer
+ * @param[in]  *handle pointer to a jed1xx handle structure
+ * @param[out] *type pointer to a chip type buffer
  * @return     status code
  *             - 0 success
  *             - 2 handle is NULL
@@ -139,7 +139,7 @@ uint8_t jed1xx_get_type(jed1xx_handle_t *handle, jed1xx_type_t *type)
 
 /**
  * @brief     initialize the chip
- * @param[in] *handle points to a jed1xx handle structure
+ * @param[in] *handle pointer to a jed1xx handle structure
  * @return    status code
  *            - 0 success
  *            - 1 iic failed
@@ -201,7 +201,7 @@ uint8_t jed1xx_init(jed1xx_handle_t *handle)
 
 /**
  * @brief     close the chip
- * @param[in] *handle points to a jed1xx handle structure
+ * @param[in] *handle pointer to a jed1xx handle structure
  * @return    status code
  *            - 0 success
  *            - 1 deinit failed
@@ -233,9 +233,9 @@ uint8_t jed1xx_deinit(jed1xx_handle_t *handle)
 
 /**
  * @brief      read data
- * @param[in]  *handle points to a jed1xx handle structure
- * @param[out] *raw points to a raw data buffer
- * @param[out] *ppm points to a converted data buffer
+ * @param[in]  *handle pointer to a jed1xx handle structure
+ * @param[out] *raw pointer to a raw data buffer
+ * @param[out] *ppm pointer to a converted data buffer
  * @return     status code
  *             - 0 success
  *             - 1 read failed
@@ -272,10 +272,10 @@ uint8_t jed1xx_read(jed1xx_handle_t *handle, uint16_t *raw, float *ppm)
 
 /**
  * @brief     set the chip register
- * @param[in] *handle points to a jed1xx handle structure
- * @param[in] reg is the register address
- * @param[in] *buf points to a data buffer
- * @param[in] len is the data buffer length
+ * @param[in] *handle pointer to a jed1xx handle structure
+ * @param[in] reg register address
+ * @param[in] *buf pointer to a data buffer
+ * @param[in] len data buffer length
  * @return    status code
  *            - 0 success
  *            - 1 write failed
@@ -305,10 +305,10 @@ uint8_t jed1xx_set_reg(jed1xx_handle_t *handle, uint8_t reg, uint8_t *buf, uint1
 
 /**
  * @brief      get the chip register
- * @param[in]  *handle points to a jed1xx handle structure
- * @param[in]  reg is the register address
- * @param[out] *buf points to a data buffer
- * @param[in]  len is the data buffer length
+ * @param[in]  *handle pointer to a jed1xx handle structure
+ * @param[in]  reg register address
+ * @param[out] *buf pointer to a data buffer
+ * @param[in]  len data buffer length
  * @return     status code
  *             - 0 success
  *             - 1 read failed
@@ -337,7 +337,7 @@ uint8_t jed1xx_get_reg(jed1xx_handle_t *handle, uint8_t reg, uint8_t *buf, uint1
 
 /**
  * @brief      get chip's information
- * @param[out] *info points to a jed1xx info structure
+ * @param[out] *info pointer to a jed1xx info structure
  * @return     status code
  *             - 0 success
  *             - 2 handle is NULL

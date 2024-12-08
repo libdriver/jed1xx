@@ -40,7 +40,7 @@ static jed1xx_handle_t gs_handle;        /**< jed1xx handle */
 
 /**
  * @brief     basic example init
- * @param[in] type is the chip type
+ * @param[in] type chip type
  * @return    status code
  *            - 0 success
  *            - 1 init failed
@@ -82,7 +82,7 @@ uint8_t jed1xx_basic_init(jed1xx_type_t type)
 
 /**
  * @brief      basic example read
- * @param[out] *ppm points to a converted data buffer
+ * @param[out] *ppm pointer to a converted data buffer
  * @return     status code
  *             - 0 success
  *             - 1 read failed
