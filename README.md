@@ -10,7 +10,7 @@
 
 Digital gas sensor is a low-power, miniaturized sensor. Combining semiconductor gas sensors with high-performance microprocessors for detecting gas concentrations in the environment. High sensitivity, compact and precise, using I2C digital signal output method, convenient for users to use and debug, greatly shortening the user's design and development cycle. It can be widely applied in many fields such as environmental safety, portable instruments, etc.
 
-LibDriver JED1XX is a full-featured driver of JED1XX launched by LibDriver.It provides the function of reading data. LibDriver is MISRA compliant.
+LibDriver JED1XX is a full-featured driver for JED1XX, launched by LibDriver.It provides data reading and additional features. LibDriver is MISRA compliant.
 
 ### Table of Contents
 
